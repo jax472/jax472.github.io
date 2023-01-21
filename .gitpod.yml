@@ -1,6 +1,3 @@
-image:
-  file: .gitpod.Dockerfile
-
 tasks:
   - name: Terminal 1
     before: printf 'export PATH="%s:$PATH"\n' "~/.local/bin" >> $HOME/.bashrc && exit
